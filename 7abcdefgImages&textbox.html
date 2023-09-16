@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <style>
+.thumb {
+    position: relative;
+    width: 100%;
+    }
+
+.square{
+    position:  relative;
+    overflow:hidden;
+    vertical-align: middle;
+    }
+.img {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    }
+.img.landscape {
+    max-width: none;
+    height: 100%;
+    width:auto!important;
+    }
+    </style>
+
+</head>
+<body>
+    <button style="right: 500px;border-radius: 2px;border-color: brown;color: brown;background-color: white;" ><a href="8abcDisplayBlock&InlineBlock.html">Next</a></button>
+    <br>
+
+    <div>
+        <img src="dog2.jpeg" width="200px" height="150px" style="border-radius: 20px;">
+
+    </div>
+    <div class="thumb">--------------------------------------------------------------------
+        <div class="square">
+            <img class="img" src="dog2.jpeg"> 
+        </div>
+    </div>-----------------------------------------------------
+    
+    <div style="display: block;">
+        <img src="dog2.jpeg" width="150px" height="150px" style="border-radius: 400px;">
+    </div>
+    <div>-------------------------------------------------------------------------
+        <form>
+            <input type="text" placeholder="Search" id="text" >
+        </form>
+    </div>
+    <br>
+    <div>--------------------------------------------------------------------------
+        <form >
+            <input style="border:none;width:500px;border-radius: 30px;box-shadow: 1px 1px 8px 1px #dcdcdc;height: 30px;" type="text" placeholder=" Search Google or type a URL" id="text" width="500px" border-radius="20px" box-shadow="around" >
+        </form>
+    </div>
+    <div>-------------------------------------------------------------------------<br>
+        Email<br>
+        <input type="text"  style="width: 365px;"/><br>
+        <p>By clicking Agree & Join, you agree to the Privacy Policy.</p>
+        <button style="border: none;border-radius: 30px;background-color: blue;color: white;width: 370px;height: 40px;">Agree & Join</button>
+    </div>--------------------------------------------------------------------------
+    <div style="display: grid;grid-template-columns: 50px 300 70px;">
+        <div style="display: inline;">
+             <img src="dog2.jpeg" height="20px" width="20px" style="border: none;border-radius: 50px;vertical-align: middle;"
+        </div>
+        <div style="display:inline;font-size:15px ;vertical-align: middle;">
+            <pre style="display: inline;font-family: Arial, Helvetica, sans-serif;">What's happening?              </pre>
+        </div>
+        <div style="display:inline;">
+            <button style="height: 20px;width:50px;vertical-align: middle;background-color: blue;color: white;border: none;border-radius: 30px;font-size: 8px;">Tweet</button><br>
+        </div>---------------------------------------------------------------
+
+    </div>
+
+</body>
+</html>
